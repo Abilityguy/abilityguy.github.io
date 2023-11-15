@@ -3,82 +3,38 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{oppertune24,
+author = {Somashekar, Gagan and Tandon, Karan and Kini, Anush and Chang, Chieh-Chun and Husak, Petr and Bhagwan, Ranjita and Das, Mayukh and Gandhi, Anshul and Natarajan, Nagarajan},
+selected = {true},
+title = {OPPerTune: Post-Deployment Configuration Tuning of Services Made Easy},
+organization = {USENIX},
+booktitle = {NSDI 2024},
+year = {2024},
+month = {April},
+abstract = {Real-world application deployments have hundreds of interdependent configuration parameters, many of which significantly influence performance and efficiency. With today’s complex and dynamic services, operators need to continuously monitor and set the right configuration values (configuration tuning) well after a service is widely deployed. This is challenging since experimenting with different configurations post-deployment may reduce application performance or cause disruptions. While state-of-the-art ML approaches do help to automate configuration tuning, they do not fully address the multiple challenges in end-to-end configuration tuning of deployed applications.
+
+This paper presents OPPerTune, a service that enables configuration tuning of applications in deployment at Microsoft. OPPerTune reduces application interruptions while maximizing the performance of deployed applications as and when the workload or the underlying infrastructure changes. It automates three essential processes that facilitate post-deployment configuration tuning: (a) determining which configurations to tune, (b) automatically managing the scope at which to tune the configurations, and (c) using a novel reinforcement learning algorithm to simultaneously and quickly tune numerical and categorical configurations, thereby keeping the overhead of configuration tuning low. We deploy OPPerTune on two enterprise applications in Microsoft Azure’s clusters. Our experiments show that OPPerTune reduces the end-to-end P95 latency of microservice applications by more than 50% over expert configuration choices made ahead of deployment. The code and datasets used are made available at https://aka.ms/OPPerTune.},
+publisher = {USENIX},
+url = {https://www.microsoft.com/en-us/research/publication/oppertune/},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{kini2023sex,
+  title={Sex-disaggregated Analysis of Risk Factors of COVID-19 Mortality Rates in India},
+  author={Kini, Anush and PB, Harish and Anand, Monica and Ranjan, Uma},
+  selected = {true},
+  journal={The Open Public Health Journal},
+  volume={16},
+  number={1},
+  year={2023},
+  abstract = {"COVID-19 mortality rates vary widely across regions and sex/gender. Understanding the reasons behind such variation could help in developing suitable management strategies. This paper presents a comprehensive analysis of incidence and mortality rates on 2,331,363 cases and 46,239 deaths over a cumulative period of approximately 6.5 months from February to August 2020 across 411 districts of India in the age group 15-49. Together with health data from government surveys, we identify risk and protective factors across regions, socio-economic status, literacy, and sex. To obtain common indicators, we apply both machine learning techniques and statistical tests on different health factors. We also identify positive and negative correlates at multiple population scales by dividing the cohort into sub-cohorts formed from two Indian states that were further segregated by sex. We show that males and females differ in their risk factors for mortality. While obesity (lasso regression coefficient: KA=0.5083, TN=0.318) is the highest risk factor for males, anemia (KA=0.3048, TN=0.046) is the highest risk factor for females. Further, anemia (KA=-0.0958, TN=-0.2104) is a protective factor for males, while obesity (KA=-0.0223, TN=-0.3081) is a protective factor for females. Districts with a high prevalence of obesity pose a significantly greater risk of severe COVID-19 outcomes in males. On the other hand, in females, the prevalence of anemia in districts is notably associated with a higher risk of severe COVID-19 outcomes. It is important to consider sex-wise heterogeneity in health factors for better management of health resources.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{garmeetsrag,
+    title={GAR-meets-RAG Paradigm for Zero-Shot Information Retrieval},
+    author={Daman Arora and Anush Kini and Sayak Ray Chowdhury and Nagarajan Natarajan and Gaurav Sinha and Amit Sharma},
+    year={2023},
+    eprint={2310.20158},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    abstract = {Given a query and a document corpus, the information retrieval (IR) task is to output a ranked list of relevant documents. Combining large language models (LLMs) with embedding-based retrieval models, recent work shows promising results on the zero-shot retrieval problem, i.e., no access to labeled data from the target domain. Two such popular paradigms are generation-augmented retrieval or GAR (generate additional context for the query and then retrieve), and retrieval-augmented generation or RAG (retrieve relevant documents as context and then generate answers). The success of these paradigms hinges on (i) high-recall retrieval models, which are difficult to obtain in the zero-shot setting, and (ii) high-precision (re-)ranking models which typically need a good initialization. In this work, we propose a novel GAR-meets-RAG recurrence formulation that overcomes the challenges of existing paradigms. Our method iteratively improves retrieval (via GAR) and rewrite (via RAG) stages in the zero-shot setting. A key design principle is that the rewrite-retrieval stages improve the recall of the system and a final re-ranking stage improves the precision. We conduct extensive experiments on zero-shot passage retrieval benchmarks, BEIR and TREC-DL. Our method establishes a new state-of-the-art in the BEIR benchmark, outperforming previous best results in Recall@100 and nDCG@10 metrics on 6 out of 8 datasets, with up to 17% relative gains over the previous best.}
 }
