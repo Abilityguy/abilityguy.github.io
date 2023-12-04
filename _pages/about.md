@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am currently a Research Fellow (Pre-Doctoral researcher) at Microsoft Research, collaborating with [Dr. Nagarajan Natarajan](https://www.microsoft.com/en-us/research/people/nagarajn/) and [Dr. Gaurav Sinha](https://www.microsoft.com/en-us/research/people/gauravsinha/).
 
-My research interests lie at the intersection of Statistics, Machine Learning, and Optimization.
+My research interests lie at the intersection of Statistics, Reinforcement Learning, and Optimization.
 
 Previously, I spent a year working at Google on the [Data Commons](https://datacommons.org/) project. I completed my undergraduate studies at [PES University](https://pes.edu/), majoring in Computer Science Engineering. During my undergraduate years, I interned at the Indian Institute of Science (IISc), Intel Corporation, and Hi-Tech Robotic Systemz.
 
