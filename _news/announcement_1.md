@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our recent work [GAR-meets-RAG Paradigm for Zero-Shot Information Retrieval](https://arxiv.org/pdf/2310.20158.pdf) is up on arXiv. 
-<!-- We introduce a self-tuning prompting loop that combines the GAR-RAG paradigms to improve zero-shot information retrieval. -->
+Our work [GAR-meets-RAG Paradigm for Zero-Shot Information Retrieval](https://arxiv.org/pdf/2310.20158.pdf) is up on arXiv. 
