@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am currently a Research Fellow (Pre-Doctoral researcher) at Microsoft Research, working at the intersection of Statistics, Machine Learning, and Optimization. Recently, I have been spending time exploring Alignment and Fairness methods in Large Language Models.
+Hi, I am Anush! I am currently working on AI Safety and Alignment. Recently, I was a Research Fellow (Pre-Doctoral researcher) at Microsoft Research, working on different problems at in Statisitcs, Machine Learning, and Optimization. 
 
 Previously, I spent about a year working at Google on the [Data Commons](https://datacommons.org/) project. I completed my undergraduate studies at [PES University](https://pes.edu/), majoring in Computer Science and Engineering. During my undergraduate years, I interned at the Indian Institute of Science (IISc), Intel Corporation, and Hi-Tech Robotic Systemz.
 
